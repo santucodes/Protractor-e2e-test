@@ -11,7 +11,7 @@ describe("Verify Checkout screen", () => {
     navigationPage.navigateToCheckoutPage(2);
   });
 
-  it("Verify Checkout Table", () => {
+  xit("Verify Checkout Table", () => {
     // checkoutPage.verifyIfTableDisplayed();
     // checkoutPage.verifyTableHeader([ 'Product', 'Quantity', 'Price', 'Total', ' ' ]);
     // checkoutPage.verifyFirstTableRow();

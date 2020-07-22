@@ -40,6 +40,8 @@ export class BasePage {
       return element(by.partialLinkText(obj.value));
     } else if (obj.type == IdentificationType[IdentificationType.ButtonText]) {
       return element(by.buttonText(obj.value));
+    } else if (obj.type == IdentificationType[IdentificationType.Xpath]) {
+      return element(by.xpath(obj.value));
     }
   }
 }
