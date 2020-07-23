@@ -1,7 +1,7 @@
 import { BasePage } from "./BasePage";
 import { browser, element, by } from "protractor";
-import { ShopHomePage } from "../ShopHomePage";
-import { CheckoutPage } from "../CheckOutPage";
+import { ShopHomePage } from "../protocommerce/ShopHomePage";
+import { CheckoutPage } from "../protocommerce/CheckOutPage";
 
 export class NavigationPage extends BasePage {
   private static shopHomePage = new ShopHomePage();

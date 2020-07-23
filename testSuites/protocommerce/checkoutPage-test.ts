@@ -1,5 +1,5 @@
-import { CheckoutPage } from "../pageObjects/CheckOutPage";
-import { NavigationPage } from "../pageObjects/SharedPages/NavigationPage";
+import { CheckoutPage } from "../../pageObjects/protocommerce/CheckOutPage";
+import { NavigationPage } from "../../pageObjects/SharedPages/NavigationPage";
 import { browser } from "protractor";
 
 describe("Verify Checkout screen", () => {

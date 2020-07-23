@@ -1,4 +1,4 @@
-import { Config } from "protractor";
+import { Config, browser } from "protractor";
 
 export let config: Config = {
   framework: "jasmine",
@@ -17,8 +17,9 @@ export let config: Config = {
 
     // Initialise should API (attaches as a property on Object)
     chai.should();
+    browser.driver.manage().window().maximize();
   },
-  specs: ["./testSuites/*test.js"],
+  specs: ["./testSuites/*/*test.js"],
   // seleniumAddress: 'http://localhost:4444/wd/hub',
   directConnect: true,
 

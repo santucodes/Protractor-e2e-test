@@ -1,6 +1,6 @@
 
 import { browser } from "protractor";
-import { WayToRegistrationPage } from "../pageObjects/way-2-automate-registration-page";
+import { WayToRegistrationPage } from "../../pageObjects/way-2-automate/way-2-automate-registration-page";
 
 describe("Verify Checkout screen", () => {
   let registrationPage: WayToRegistrationPage = new WayToRegistrationPage();
@@ -11,7 +11,7 @@ describe("Verify Checkout screen", () => {
     // registrationPage.navigateToWayToRegistration();
   });
 
-  it("Verify Checkout Table", async () => {
+  xit("Verify Checkout Table", async () => {
     await registrationPage.verifyInvalidRegistrationSubmit();
   });
   

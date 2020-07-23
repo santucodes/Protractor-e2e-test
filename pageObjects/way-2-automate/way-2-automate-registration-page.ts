@@ -1,5 +1,5 @@
 import { ElementFinder, element, by, ElementArrayFinder, browser, protractor } from "protractor";
-import { BasePage, IdentificationType } from "./SharedPages/BasePage";
+import { BasePage, IdentificationType } from "../SharedPages/BasePage";
 import * as chai from "chai";
 
 const expect = chai.expect;
